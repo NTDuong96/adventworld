@@ -1,0 +1,9 @@
+int main() {
+    char fullname[100];
+    printf("Hello, I'm ", fullname);
+    gets(fullname);
+    char year[20];
+    printf("Born in ", year);
+    scanf(year);
+	return 0;
+}
